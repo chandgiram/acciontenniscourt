@@ -44,7 +44,7 @@ public class Reservation extends BaseEntity {
     private Schedule schedule;
 
     @NotNull
-    private BigDecimal prince;
+    private BigDecimal price;
 
     @NotNull
     private ReservationStatusEnum reservationStatus = ReservationStatusEnum.READY_TO_PLAY;
